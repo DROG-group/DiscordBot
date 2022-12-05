@@ -12,7 +12,7 @@ module.exports = {
         return interaction.reply({
             embeds: [
                 new EmbedBuilder()
-                    .setDescription(client.ws.ping + "ms!")
+                    .setDescription(client.ws.ping + "ms! Ruurd is lief")
                     .setColor('Blue')
             ],
             ephemeral: true
